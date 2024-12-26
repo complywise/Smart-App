@@ -27,8 +27,7 @@
     <script>
       FHIR.oauth2.authorize({
         'client_id': '5a33a8d1-5f09-4178-af17-9c2ecc08906c',
-        'scope':  'openid profile fhirUser launch online_access user/Patient.read user/Patient.write user/Observation.read user/Observation.write user/Condition.read user/Condition.write user/MedicationRequest.read user/MedicationRequest.write user/DocumentReference.read user/DocumentReference.write user/Encounter.read user/Encounter.write user/Appointment.read user/Appointment.write user/AllergyIntolerance.read user/AllergyIntolerance.write user/Immunization.read user/Immunization.write user/DiagnosticReport.read user/DiagnosticReport.write user/Procedure.read user/Procedure.write user/CarePlan.read user/FamilyMemberHistory.read user/FamilyMemberHistory.write user/RelatedPerson.read user/RelatedPerson.write user/Coverage.read user/Coverage.write user/ChargeItem.read user/ChargeItem.write user/Slot.read user/Slot.write patient/Patient.read patient/Observation.read patient/DocumentReference.read',
-        
+        'scope':  'openid profile fhirUser patient/Patient.read patient/Observation.read patient/DocumentReference.read'
       });
     </script>
     <div class="spinner">
